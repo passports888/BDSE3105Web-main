@@ -1,0 +1,38 @@
+#myGraph {
+    width: 90%;
+    height: 400px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frameL {
+    width: 45%;
+    display: flex;
+    float: right;
+    justify-content: center;
+    align-items: center;
+}
+
+.frameR {
+    width: 45%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1600px) {
+
+    .frameL,
+    .frameR {
+        width: 100%;
+        float: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
